@@ -2,12 +2,12 @@ package main
 
 import "fmt"
 
-func main(){
-// 	for i :=0; i < 3 ; i ++{
-// 		fmt.Println ("Angka", i)
-// 	}
+// func main(){
+// // 	for i :=0; i < 3 ; i ++{
+// // 		fmt.Println ("Angka", i)
+// // 	}
 
-// var i = 0
+// // var i = 0
 // for i < 3 {
 // 	fmt.Println ("Angka", i)
 // 	i++
@@ -38,21 +38,21 @@ func main(){
 	// 	}
 	// 	fmt.Println()
 	// }
-		outerloop :
-		for i:=0; i < 3; i++ {
-			fmt.Println("Perulangan ke-", i+ 1)
-		for j:= 0; j<3;j++{
-			if i ==2 {
-				break outerloop
-			}
-			fmt.Println(j, " ")
-		}
-		fmt.Println("\n")
+		// outerloop :
+		// for i:=0; i < 3; i++ {
+		// 	fmt.Println("Perulangan ke-", i+ 1)
+		// for j:= 0; j<3;j++{
+		// 	if i ==2 {
+		// 		break outerloop
+		// 	}
+		// 	fmt.Println(j, " ")
+		// }
+		// fmt.Println("\n")
 
-		}
+		// }
 		
 
 
-	}
+
 
 
